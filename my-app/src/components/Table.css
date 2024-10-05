@@ -1,0 +1,101 @@
+
+* {
+  direction: rtl;
+}
+.custom-table .ant-table {
+  border: 1px solid  #FCECE1; /* Change this to your desired */
+}
+
+.custom-table .ant-table-thead > tr > th,
+.custom-table .ant-table-tbody > tr > td {
+  border: 1px solid #FCECE1; /* Change this to your desired */
+}
+
+/* Specifically target vertical borders for table cells */
+.custom-table .ant-table-tbody > tr > td,
+.custom-table .ant-table-thead > tr > th {
+ border: 1px solid #FCECE1;
+}
+
+.custom-table .ant-table-tbody > tr > td, .custom-table .ant-table-thead > tr > th {
+  border: 1px solid #FCECE1;
+}
+
+.ant-table-cell {
+  border: 1px solid #FCECE1
+}
+
+.custom-table .ant-table-thead > tr > th {
+  background-color: rgba(242, 242, 242, 1);
+}
+
+.ant-card {
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15) !important;
+  border-radius: 8px !important;
+  margin: 25px
+}
+
+.ant-body2 .ant-card .ant-card-body {
+  padding: 0px;
+}
+
+ .ant-divider-horizontal {
+  margin: 20px 0;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+display: flex;
+flex-direction: column;
+}
+
+.form-group.full-width {
+  flex: 1 100%;
+  margin-right: 0;
+}
+
+.price-confirmation-form{
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-input {
+  height: 31px;
+  width: 190px;
+  border-radius: 8px;
+  border: 1px solid rgb(145, 144, 144);
+}
+
+.ant-label {
+  margin-bottom: 10px;
+}
+
+.ant-select {
+  height: 35px;
+  width: 190px;
+  border-radius: 7px;
+  border: 1px solid rgb(145, 144, 144);
+}
+
+.ant-input {
+  direction: ltr;
+}
+
+.ant-input2 {
+  direction: ltr;
+  height: 65px;
+  width: 420px;
+  border-radius: 8px;
+}
+
+.ant-checkbox .ant-checkbox-inner {
+ 
+  border: 1px solid #9c9c9d;
+ 
+}
+
